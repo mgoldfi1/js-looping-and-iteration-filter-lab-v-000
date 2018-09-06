@@ -4,6 +4,7 @@ const match =  drivers.filter(function (item) {return item.toUpperCase() === str
   return match
 }
 
-function fuzzyMatch(letters) {
-
+function fuzzyMatch(drivers, string) {
+  const match =  drivers.filter(function (item) {return item.name.toUpperCase() === string.toUpperCase() })
+    return match
 }
