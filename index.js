@@ -3,3 +3,7 @@ function findMatching(drivers,string) {
 const match =  drivers.filter(function (item) {return item.toUpperCase() === string.toUpperCase() })
   return match
 }
+
+function fuzzyMatch(letters) {
+  debugger;
+}
