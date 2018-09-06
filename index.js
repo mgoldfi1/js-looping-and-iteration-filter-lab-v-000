@@ -5,5 +5,5 @@ const match =  drivers.filter(function (item) {return item.toUpperCase() === str
 }
 
 function fuzzyMatch(letters) {
-  debugger;
+
 }
