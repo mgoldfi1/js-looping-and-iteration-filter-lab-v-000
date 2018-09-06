@@ -6,6 +6,6 @@ const match =  drivers.filter(function (item) {return item.toUpperCase() === str
 
 function fuzzyMatch(drivers, string) {
 
-  const newArray =  drivers.filter(function (item) {return item.toUpperCase().includes(string.toUpperCase()) })
+  const newArray =  drivers.filter(function (item) {return item[0] === string[0] && item[1] === string[1]})
     return newArray
 }
